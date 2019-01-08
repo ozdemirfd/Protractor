@@ -1,0 +1,363 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1545639816838' stop='1545639840810'>
+    <name>Demonstrating Jasmine Reporter </name>
+    <title>Demonstrating Jasmine Reporter </title>
+    <test-cases>
+        <test-case start='1545639819184' status='passed' stop='1545639823302'>
+            <name>allertboxes </name>
+            <title>allertboxes </title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1545639823302' status='failed' stop='1545639823402'>
+            <name>should</name>
+            <title>should</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: unexpected alert open: {Alert text : I am a JS Alert}
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64)</message>
+                <stack-trace>UnexpectedAlertOpenError: unexpected alert open: {Alert text : I am a JS Alert}
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:553:13)
+                    at parseHttpResponse (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at doSend.then.response (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:189:7)
+                From: Task: WebDriver.takeScreenshot()
+                    at Driver.schedule (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Driver.takeScreenshot (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+                    at run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+                    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+                    at Jasmine2Reporter._callee8$ (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4976:48)
+                    at tryCatch (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:5403:40)
+                    at Generator.invoke [as _invoke] (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:5677:22)
+                    at Generator.prototype.(anonymous function) [as next] (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:5436:21)
+                    at step (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4487:191)
+                    at C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4487:361
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4715:13)
+                    at dispatch (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+                    at Env.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:975:16)
+                    at Jasmine.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:200:12)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:132:15
+                    at Function.promise (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:682:9)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:104:14
+                    at _fulfilled (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:834:54)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1545639823403' status='failed' stop='1545639828527'>
+            <name>Dismiss the alert</name>
+            <title>Dismiss the alert</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: unexpected alert open: {Alert text : I am a JS Alert}
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64)</message>
+                <stack-trace>UnexpectedAlertOpenError: unexpected alert open: {Alert text : I am a JS Alert}
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:553:13)
+                    at parseHttpResponse (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at doSend.then.response (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:189:7)
+                From: Task: WebDriver.takeScreenshot()
+                    at Driver.schedule (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Driver.takeScreenshot (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+                    at run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+                    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+                    at Jasmine2Reporter._callee8$ (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4976:48)
+                    at tryCatch (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:5403:40)
+                    at Generator.invoke [as _invoke] (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:5677:22)
+                    at Generator.prototype.(anonymous function) [as next] (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:5436:21)
+                    at step (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4487:191)
+                    at C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4487:361
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4715:13)
+                    at dispatch (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+                    at Env.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:975:16)
+                    at Jasmine.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:200:12)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:132:15
+                    at Function.promise (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:682:9)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:104:14
+                    at _fulfilled (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:834:54)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4715:13)
+                    at dispatch (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+                    at Env.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:975:16)
+                    at Jasmine.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:200:12)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:132:15
+                    at Function.promise (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:682:9)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:104:14
+                    at _fulfilled (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:834:54)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1545639828527' status='failed' stop='1545639833661'>
+            <name>Accept the alert</name>
+            <title>Accept the alert</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: unexpected alert open: {Alert text : I am a JS Alert}
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64)</message>
+                <stack-trace>UnexpectedAlertOpenError: unexpected alert open: {Alert text : I am a JS Alert}
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:553:13)
+                    at parseHttpResponse (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at doSend.then.response (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:189:7)
+                From: Task: WebDriver.takeScreenshot()
+                    at Driver.schedule (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Driver.takeScreenshot (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+                    at run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+                    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+                    at Jasmine2Reporter._callee8$ (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4976:48)
+                    at tryCatch (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:5403:40)
+                    at Generator.invoke [as _invoke] (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:5677:22)
+                    at Generator.prototype.(anonymous function) [as next] (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:5436:21)
+                    at step (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4487:191)
+                    at C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4487:361
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4715:13)
+                    at dispatch (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+                    at Env.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:975:16)
+                    at Jasmine.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:200:12)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:132:15
+                    at Function.promise (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:682:9)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:104:14
+                    at _fulfilled (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:834:54)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4715:13)
+                    at dispatch (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+                    at Env.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:975:16)
+                    at Jasmine.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:200:12)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:132:15
+                    at Function.promise (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:682:9)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:104:14
+                    at _fulfilled (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:834:54)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4715:13)
+                    at dispatch (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+                    at Env.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:975:16)
+                    at Jasmine.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:200:12)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:132:15
+                    at Function.promise (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:682:9)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:104:14
+                    at _fulfilled (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:834:54)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1545639833661' status='failed' stop='1545639840802'>
+            <name>Send keys</name>
+            <title>Send keys</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: unexpected alert open: {Alert text : I am a JS Alert}
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64)</message>
+                <stack-trace>UnexpectedAlertOpenError: unexpected alert open: {Alert text : I am a JS Alert}
+                  (Session info: chrome=71.0.3578.98)
+                  (Driver info: chromedriver=2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387),platform=Windows NT 10.0.17134 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:553:13)
+                    at parseHttpResponse (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at doSend.then.response (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+                    at &lt;anonymous>
+                    at process._tickCallback (internal/process/next_tick.js:189:7)
+                From: Task: WebDriver.takeScreenshot()
+                    at Driver.schedule (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Driver.takeScreenshot (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+                    at run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+                    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+                    at Jasmine2Reporter._callee8$ (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4976:48)
+                    at tryCatch (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:5403:40)
+                    at Generator.invoke [as _invoke] (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:5677:22)
+                    at Generator.prototype.(anonymous function) [as next] (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:5436:21)
+                    at step (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4487:191)
+                    at C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4487:361
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4715:13)
+                    at dispatch (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+                    at Env.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:975:16)
+                    at Jasmine.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:200:12)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:132:15
+                    at Function.promise (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:682:9)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:104:14
+                    at _fulfilled (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:834:54)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4715:13)
+                    at dispatch (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+                    at Env.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:975:16)
+                    at Jasmine.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:200:12)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:132:15
+                    at Function.promise (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:682:9)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:104:14
+                    at _fulfilled (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:834:54)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4715:13)
+                    at dispatch (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+                    at Env.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:975:16)
+                    at Jasmine.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:200:12)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:132:15
+                    at Function.promise (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:682:9)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:104:14
+                    at _fulfilled (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:834:54)
+                From: Task: Run beforeEach in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Jasmine2Reporter.jasmineStarted (C:\Users\kbaialiev\Desktop\CyberFramework\node_modules\protractor-beautiful-reporter\index.js:4715:13)
+                    at dispatch (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+                    at ReportDispatcher.jasmineStarted (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+                    at Env.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:975:16)
+                    at Jasmine.execute (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine\lib\jasmine.js:200:12)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:132:15
+                    at Function.promise (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:682:9)
+                    at C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\built\frameworks\jasmine.js:104:14
+                    at _fulfilled (C:\Users\kbaialiev\AppData\Roaming\npm\node_modules\protractor\node_modules\q\q.js:834:54)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,21 @@
+{
+  "name": "cyberframework",
+  "version": "1.0.0",
+  "description": "This is Cybertek Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "keywords": [
+    "protractor"
+  ],
+  "author": "Cybertek",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor-beautiful-reporter": "^1.2.5",
+    "sg-protractor-tools": "^1.0.4"
+  },
+  "dependencies": {}
+}

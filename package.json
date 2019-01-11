@@ -4,7 +4,7 @@
   "description": "This is Cybertek Framework",
   "main": "index.js",
   "scripts": {
-    "test": "protractor CyberBank/Configuration/conf2.js --suite specs"
+    "test": "protractor CyberBank/Configuration/conf.js"
   },
   "keywords": [
     "protractor"
